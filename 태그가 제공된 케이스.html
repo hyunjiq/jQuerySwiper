@@ -49,10 +49,15 @@
     </div>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script>
-        $(".btns button").each(function(){
-            $(this).on("click", function(){
+        // $(".btns button").each(function(){
+        //     $(this).on("click", function(){
+        //         alert($(this).index())
+        //     })
+        // });
+        $(".btns button").on("click",function(){
+
                 alert($(this).index())
-            })
+
         });
     </script>
 </body>
